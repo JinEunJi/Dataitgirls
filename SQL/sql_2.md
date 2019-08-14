@@ -53,7 +53,7 @@ Britney Bri
 */
 ```
 
-##### RIGHT(column, index)
+**RIGHT(column, index)**
 
 :오른쪽부터 index개의 column을 가져옴
 
