@@ -4,7 +4,7 @@
 
 **ORDER BY = 정렬하기**
 
-: ASC 내림차순 정렬, DESC 오름차순 정렬
+: ASC 내림차순 정렬, DESC 오름차순 정렬  
 
 ```mysql
 -- ORDER BY
