@@ -2,7 +2,7 @@
 
 
 
-##### ORDER BY = 정렬하기
+**ORDER BY = 정렬하기**
 
 : ASC 내림차순 정렬, DESC 오름차순 정렬
 
@@ -17,7 +17,7 @@ FROM Customers
 ORDER BY CustomerID DESC
 ```
 
-##### LIMIT 
+**LIMIT** 
 
 :원하는 만큼만 출력
 
@@ -27,7 +27,7 @@ FROM Customers
 LIMIT 1
 ```
 
-##### LIMIT & ORDER BY
+**LIMIT & ORDER BY**
 
 ```mysql
 SELECT * 
@@ -37,7 +37,7 @@ LIMIT 1
 
 
 
-##### LEFT(column, index)
+**LEFT(column, index)**
 
 : 왼쪽부터 index개의 column을 가져옴
 
@@ -69,7 +69,7 @@ Britney ney
 */
 ```
 
-##### SUBSTRING(column, index, index)
+**SUBSTRING(column, index, index)**
 
 :첫번째 index부터 두번째 index까지의 column을 가져옴
 
@@ -87,7 +87,7 @@ Britney ritn
 
 
 
-##### GROUP BY
+**GROUP BY**
 
 : 데이터들을 원하는 그룹으로 나눠 줌, 집계함수와 함께 사용을 많이 함. 
 
@@ -108,7 +108,7 @@ Company  AVERAGE       SUMMATION
 */
 ```
 
-##### ORDER BY & GROUP BY
+**ORDER BY & GROUP BY**
 
 ```mysql
 -- ORDER BY와 GROUP BY
@@ -118,7 +118,7 @@ GROUP BY Company
 ORDER BY AVG(Salary)
 ```
 
-##### HAVING
+**HAVING**
 
 ```mysql
 -- HAVING
